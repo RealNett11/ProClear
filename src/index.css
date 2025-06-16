@@ -1,0 +1,83 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 215 100% 15%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 0 0% 1%;
+    --muted-foreground: 0 0% 1%;
+
+    --accent: 215 100% 25%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 215 100% 15%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 215 100% 60%;
+    --primary-foreground: 0 0% 10%;
+
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 80%;
+
+    --muted: 0 0% 25%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 215 100% 50%;
+    --accent-foreground: 0 0% 10%;
+
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
+    --ring: 215 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.liquid-glass {
+  backdrop-filter: blur(24px) saturate(80%);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgb(201, 201, 201);
+}
