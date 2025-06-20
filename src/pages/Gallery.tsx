@@ -5,28 +5,28 @@ import { Link } from "react-router-dom";
 const Gallery = () => {
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop&crop=center",
-      alt: "Professional office building window cleaning"
+      src: "/work/windows-1.jpg",
+      alt: "Professional window cleaning"
     },
     {
-      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop&crop=center",
-      alt: "High-rise commercial window washing"
+      src: "/work/windows-2.jpg",
+      alt: "Professional window cleaning"
     },
     {
-      src: "https://images.unsplash.com/photo-1527576539890-dfa815648363?w=600&h=400&fit=crop&crop=center",
-      alt: "Crystal clear residential windows"
+      src: "/work/windows-3.jpg",
+      alt: "Professional window cleaning"
     },
     {
-      src: "https://images.unsplash.com/photo-1487252665478-49b61b47f302?w=600&h=400&fit=crop&crop=center",
-      alt: "Before and after window cleaning"
+      src: "/work/House-1.jpg",
+      alt: "Professional window cleaning"
     },
     {
-      src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop&crop=center",
-      alt: "Streak-free window results"
+      src: "/work/House-2.jpg",
+      alt: "Professional window cleaning"
     },
     {
-      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop&crop=center",
-      alt: "Commercial storefront cleaning"
+      src: "/work/House-3.jpg",
+      alt: "Professional window cleaning"
     }
   ];
 
