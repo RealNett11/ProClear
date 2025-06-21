@@ -23,7 +23,7 @@ const Gallery = () => {
       reviews: [
         {
           author: "John D.",
-          comment: "Great service! All my windows were cleaned perfectly.",
+          comment: "Great service! All my windows were cleaned perfectly and had no streaks.",
           rating: 5
         }
       ]
@@ -36,8 +36,8 @@ const Gallery = () => {
       ],
       reviews: [
         {
-          author: "Mike T.",
-          comment: "Excellent job on our office building windows!",
+          author: "David B.",
+          comment: "Windows were great and they removed a bush, weeded, retarped, and layed down mulch.",
           rating: 5
         }
       ]
@@ -49,8 +49,8 @@ const Gallery = () => {
       ],
       reviews: [
         {
-          author: "Mike F.",
-          comment: "Excellent job on our office building windows!",
+          author: "Jackie K.",
+          comment: "Great Job!",
           rating: 5
         }
       ]
